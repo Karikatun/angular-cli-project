@@ -1,0 +1,121 @@
+.row-last {
+  margin: auto;
+  width: 100vw;
+}
+.media-grid__row {
+  margin: 0 auto;
+  width: 902px;
+  height: 349px;
+  padding-bottom: 35px;
+}
+.media-service__header-title {
+  font-weight: 500;
+  text-align: left;
+}
+.media-service__tabs {
+  display: flex;
+  position: relative;
+  z-index: 1;
+}
+.media-service__tab {
+  display: inline-block;
+  background-color: #E6E6E6;
+  padding: 10px 16px;
+  border-radius: 2px;
+  margin: 8px 8px 0 0;
+}
+.media-service__tab_selected {
+  color: white;
+  background-color: black;
+}
+.media-service__panels {
+  min-height: 218px;
+  margin-bottom: -2px;
+  padding-top: 24px;
+}
+.media-service__panel {
+  position: relative;
+  height: 236px;
+  margin-top: -35px;
+}
+.carousel {
+  padding-top: 35px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  margin-bottom: -30px;
+  padding-bottom: 30px;
+  display: inline-block;
+  padding: 0 36px 0 0;
+  position: relative;
+  white-space: nowrap;
+}
+.media-service__film:first-child {
+  margin-left: 0;
+}
+.media-service__film {
+  position: relative;
+  display: inline-block;
+  width: 120px;
+  margin-bottom: 2px;
+  margin-left: 16px;
+  padding-right: 0;
+  padding-left: 0;
+  cursor: pointer;
+  vertical-align: top;
+  white-space: normal;
+  outline: none;
+  color: inherit;
+  box-sizing: border-box;
+}
+.media-service__film-inner {
+  height: 180px;
+  border-radius: 6px 6px 6px 8px;
+  background: #dfdcd7 no-repeat 50% url(//yastatic.net/www/_/y/4/Jy-b3BgSC_rSXwEgmmoYVtrdE.svg);
+  background-size: 54px 40px;
+  display: block;
+  -webkit-transition: -webkit-transform 0.15s ease-out;
+  transition: transform 0.15s ease-out;
+  transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
+}
+.media-service__film-content {
+  height: 32px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 8px;
+}
+.media-service__film-title {
+  display: block;
+  line-height: 1.24em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-word;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  height: 16px;
+  font-size: 100%;
+  position: relative;
+  text-align: center;
+}
+.kinopoisk__film-title {
+  height: 32px;
+}
+.afisha__film-title {
+  text-align: left;
+}
+.media-service__film-genre {
+  height: 16px;
+  line-height: 1.24em;
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  opacity: .4;
+}
