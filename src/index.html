@@ -12,88 +12,569 @@
 </head>
 
 <body>
-  <div class="container">
-    <div class="headline">
-      <div class="row">
-        <div class="headline__leftcorner">
-          <a href="#" class="headline-link geolink">Москва</a>
+
+  <!-- Новая Структура -->
+  <div class="page">
+    <div class="page-header">
+      <div class="page-header__item _left">
+        <div class="page-header__button _geo">
+          <div class="page-header__icon-geo">
+            <svg class="page-header__icon-geo" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+              <g>
+                <path fill="#C2C2C2" d="M15 3L3.1 8.3l5.8.8.5 5.5z" />
+              </g>
+            </svg>
+          </div> Краснознаменск
         </div>
-        <div class="headline__center"></div>
-        <div class="headline__bar">
-          <div class="favorites">
-            <div class="headline__bar-icon"></div>
+      </div>
+      <div class="page-header__item _right">
+        <div class="page-header__button _favorites">
+          <svg xmlns="http://www.w3.org/2000/svg" class="page-header__icon" width="0" height="0">
+            <path
+              d="M25 23.67V14a2 2 0 0 0-2-2h-8c0-1.1.9-2 2-2h7.5a2.5 2.5 0 0 1 2.5 2.5V25zM12.5 14h9c.83 0 1.5.67 1.5 1.5V29l-6-4-6 4V15.5c0-.83.67-1.5 1.5-1.5z" />
+          </svg>
+        </div>
+        <div class="page-header__button _notifier">
+          <svg xmlns="http://www.w3.org/2000/svg" class="page-header__icon" width="0" height="0">
+            <g>
+              <path d="M19.96 10A5.98 5.98 0 0 0 24 17.16V21l2 1v2H11v-2l2-1v-4c.15-2.25 1.08-4.71 4-5.5V10h2.96z">
+              </path>
+              <path d="M24 18.01A7 7 0 0 1 19.04 10H20v1.5c3 .8 3.86 3.25 4 5.5v1z"></path>
+              <path d="M18.5 26c.99 0 1.5-.51 1.5-1.5V23h-3v1.5c0 .99.51 1.5 1.5 1.5z"></path>
+            </g>
+          </svg>
+        </div>
+        <div class="page-header__button _options">Настройка</div>
+      </div>
+    </div>
+    <div class="page-topnews">
+      <div class="page-topnews__header-content">
+        <div class="page-topnews__header-items">
+          <a href="#" class="page-topnews__header-item link link_blue">Сейчас в СМИ</a>
+          <a href="#" class="page-topnews__header-item link link_lightblue">Москва и область</a>
+          <div class="page-topnews__header-item page-topnews__header-datetime">
+            <span class="datetime_date">
+              <span class="datetime_day">21 </span>
+              <span class="datetime_month">марта, </span>
+              <span class="datetime_wday">четверг </span>
+            </span>
+            <span class="datetime_time">
+              <span class="datetime_hour">16</span>
+              <span class="datetime_flicker">:</span>
+              <span class="datetime_min">28</span>
+            </span>
+            </d>
           </div>
-          <div class="notifier">
-            <div class="headline__bar-icon"></div>
+        </div>
+        <div class="page-topnews__main-items">
+          <ol class="page-topnews__main-list">
+            <li class="page-topnews__main-list__item">
+              <div class="page-topnews__main-list-favico"></div> ЦИК отказался передать Грудинину мандат депутата
+              Госдумы
+            </li>
+            <li class="page-topnews__main-list__item">
+              <div class="page-topnews__main-list-favico"></div> Началову проводили в последний путь овацией
+            </li>
+            <li class="page-topnews__main-list__item">
+              <div class="page-topnews__main-list-favico"></div> Россия подняла в воздух два Су-27 из-за бомбардировщика
+              ВВС США
+            </li>
+            <li class="page-topnews__main-list__item">
+              <div class="page-topnews__main-list-favico"></div> Госдума ввела доплаты для пенсионеров сверх
+              прожиточного минимума
+            </li>
+            <li class="page-topnews__main-list__item">
+              <div class="page-topnews__main-list-favico"></div> Forbes назвал российских миллиардеров с наибольшими
+              доходами
+            </li>
+          </ol>
+        </div>
+        <div class="page-topnews__currency">
+          <div class="page-topnews__currency__item">
+            <a href="#" class="page-topnews__currency-link link link_black">USD MOEX</a>
+            <span class="page-topnews__currency__value">63,72</span>
+            <span class="page-topnews__currency__change _down">-0,15</span>
           </div>
-          <a href="#" class="headline-link head-options">Настройка</a>
+          <div class="page-topnews__currency__item">
+            <a href="#" class="page-topnews__currency-link link link_black">EUR MOEX</a>
+            <span class="page-topnews__currency__value">72,58</span>
+            <span class="page-topnews__currency__change _down">-0,28</span>
+          </div>
+          <div class="page-topnews__currency__item">
+            <a href="#" class="page-topnews__currency-link link link_black">НЕФТЬ</a>
+            <span class="page-topnews__currency__value">68,32</span>
+            <span class="page-topnews__currency__change _down">-0,04%</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-topnews__promo">
+        <a href="#" class="page-topnews__promo__link link">
+          <img class="page-topnews__promo__image" src="./assets/images/optimize.png">
+        </a>
+        <a class="page-topnews__promo__title link link_blue">
+          Освойте IT
+        </a>
+        <div class="page-topnews__promo__description">Онлайн-курсы Яндекса и вузов-партнеров</div>
+      </div>
+    </div>
+    <div class="page-nav">
+      <div class="page-nav__logo"></div>
+      <div class="page-nav__tabs">
+        <a href="#" class="page-nav__tab link link_blue">Видео</a>
+        <a href="#" class="page-nav__tab link link_blue">Картинки</a>
+        <a href="#" class="page-nav__tab link link_blue">Новости</a>
+        <a href="#" class="page-nav__tab link link_blue">Карты</a>
+        <a href="#" class="page-nav__tab link link_blue">Маркет</a>
+        <a href="#" class="page-nav__tab link link_blue">Переводчик</a>
+        <a href="#" class="page-nav__tab link link_blue">Музыка</a>
+        <a href="#" class="page-nav__tab link link_blue">ещё</a>
+      </div>
+      <form action="" class="page-nav__search-form">
+        <input type="text" class="page-nav__search-input">
+        <button class="page-nav__search-button">Найти</button>
+      </form>
+      <div class="page-nav__search-bottom">
+        <div class="page-nav__search-bottom__text-const">Найдется всё.</div>
+        <a class="page-nav__search-bottom__text-change link link_grey"> Высочайшая вершина земли</a>
+      </div>
+    </div>
+    <div class="page-advbar">
+      <img class="page-advbar__image"
+        src="https://awaps.yandex.net/0/c1/tVK-Oiz0m0j1k6YASgcYXr7PohY7AI096lWDLc0B0RYko8kcovMkfGtQk0TRu_tQea025+413UqECokMkCOkNSE9Ae2HX-cHjhVXJvT4h7Z7tx9+lZLosWyBRPP_tv5fMvAYDaSno44rPAGsP4bJqYOHA3aa67lS8O86shVofjhKiZCBY2kSIy1Bl_tFPo3qETLt22SaFPIZsECmAZ0G1GJZWSvlx1PR8reckQVxgrBpRdHMRVvOw0i_tREKwNRoHK9MizNXacEIKjwkFrpZZ0LPk6bWqbTpkVt0dpCxcNz1GPhTa62NJ_tr9vrh2YuVGsoO3GE1YZow+tSwO-gMB17ebHcrlD56iUznnkW6cA9vA+uKOXL_CKLoA_A_.jpg"
+        alt="Honor View 20. Открой неизведанное">
+    </div>
+    <div class="page-widgets">
+      <div class="page-widgets__item item_weather">
+        <a class="page-widgets__item-header link link_blue">Погода</a>
+        <div class="page-widgets__item-content">
+          <div class="page-widgets__item-image image_weather"></div>
+          <div class="page-widgets__item-num">+3°</div>
+          <div class="page-widgets__item-info high-info">
+            <div class="page-widgets__item-temp_evening">Вечером +2,</div>
+            <div class="page-widgets__item-temp_night">ночью 0</div>
+          </div>
+        </div>
+      </div>
+      <div class="page-widgets__item item_traffic">
+        <a class="page-widgets__item-header link link_blue">Пробки</a>
+        <div class="page-widgets__item-content">
+          <div class="page-widgets__item-image image_traffic"></div>
+          <div class="page-widgets__item-num">5</div>
+          <div class="page-widgets__item-info traffic-info high-info">Движение плотное</div>
+        </div>
+      </div>
+      <div class="page-widgets__item item_map">
+        <a class="page-widgets__item-header link link_blue">Карта Краснознаменска</a>
+        <div class="page-widgets__item-content _map">
+          <div class="page-widgets__item-info high-info map-info">Метро</div>
+          <div class="page-widgets__item-info high-info map-info">Такси</div>
+          <div class="page-widgets__item-info high-info map-info">Расписания</div>
+          <div class="page-widgets__item-info high-info map-info">Сообщество соседей</div>
+        </div>
+      </div>
+      <div class="page-widgets__item widgets-lower">
+        <a class="page-widgets__item-header link link_blue">Посещаемое</a>
+        <div class="page-widgets__item-info _lower"><span class="page-widgets__item-text_bold">Маркет </span>— смартфоны
+          Huawei</div>
+        <div class="page-widgets__item-info _lower"><span class="page-widgets__item-text_bold">Авто.ру </span>—
+          рестайлинги авто</div>
+        <div class="page-widgets__item-info _lower _lower-last"><span class="page-widgets__item-text_bold">Недвижимость
+          </span>—
+          цены в р-не Щукино</div>
+      </div>
+      <div class="page-widgets__item  widgets-lower widget-tv">
+        <div class="page-widgets__item-header tv-header">
+          <a href="#" class="link link_blue tv-link">Телепрограмма</a>
+          <button class="page-widgets__item-header-button">Эфир</button>
+        </div>
+        <div class="page-widgets__item-tv-inner">
+          <div class="page-widgets__item-info _lower _lower-tv">16:10</div>
+          <div class="page-widgets__item-info _lower _lower-tv">Клуб Винкс - школа <a
+              class="link link_grey tv-info-link no-margin-left">Карусель</a></div>
+        </div>
+        <div class="page-widgets__item-tv-inner">
+          <div class="page-widgets__item-info _lower _lower-tv">16:10</div>
+          <div class="page-widgets__item-info _lower _lower-tv">Театр обреченных <a
+              class="link link_grey tv-info-link">ОТР</a></div>
+        </div>
+        <div class="page-widgets__item-tv-inner tv-item-last">
+          <div class="page-widgets__item-info _lower _lower-tv">16:15</div>
+          <div class="page-widgets__item-info _lower _lower-tv">Вести <a class="link link_grey tv-info-link">Россия
+              24</a></div>
+        </div>
+      </div>
+      <div class="page-widgets__item widgets-lower widget-tvnow">
+        <div class="page-widgets__item-header tv-header tvnow-header">
+          <a href="#" class="link link_blue tv-link">Сейчас в эфире</a>
+        </div>
+        <div class="page-widgets__item-tv-inner tvnow">
+          <div class="page-widgets__item-favicon">
+            <svg class="page-widgets__item-favicon" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+              <g>
+                <circle fill="#709FFF" cx="6.5" cy="6.5" r="6.5" />
+                <path fill="#FFF" d="M5 3.5l5 3-5 3z" />
+              </g>
+            </svg>
+          </div>
+          <div class="page-widgets__item-info _lower _lower-tv">День <a class="link link_grey tv-info-link">РБК</a>
+          </div>
+        </div>
+        <div class="page-widgets__item-tv-inner tvnow tvnow-item-center">
+          <div class="page-widgets__item-favicon">
+            <svg class="page-widgets__item-favicon" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+              <g>
+                <circle fill="#709FFF" cx="6.5" cy="6.5" r="6.5" />
+                <path fill="#FFF" d="M5 3.5l5 3-5 3z" />
+              </g>
+            </svg>
+          </div>
+          <div class="page-widgets__item-info _lower _lower-tv ">Чемпионат Голландии. Сезон... <a
+              class="link link_grey">Футбол</a></div>
+        </div>
+        <div class="page-widgets__item-tv-inner tvnow tvnow-item-last ">
+          <div class="page-widgets__item-favicon">
+            <svg class="page-widgets__item-favicon" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+              <g>
+                <circle fill="#709FFF" cx="6.5" cy="6.5" r="6.5" />
+                <path fill="#FFF" d="M5 3.5l5 3-5 3z" />
+              </g>
+            </svg>
+          </div>
+          <div class="page-widgets__item-info _lower _lower-tv ">Хиты планеты. Топ 5 <a
+              class="link link_grey tvnow-info-link">МУЗ-ТВ</a></div>
         </div>
       </div>
     </div>
-    <div class="right-desc"></div>
-    <div class="main">
+    <div class="page-aside">
+      <div class="page-aside__items-card _post-inner">
+        <div class="page-aside__post-header">
+          <div class="page-aside__item-username _username"><span class="_username-first-letter">s</span>hevchenko-ant...
+          </div>
+          <div class="page-aside__item-profimg _profile-img">
+            <img class="page-aside__item _profile-img" src="https://avatars.mds.yandex.net/get-yapic/0/0-0/islands-34">
+          </div>
+        </div>
+        <a class="page-aside__item link link_black">
+          <div class="page-aside__item-post">Почта</div>
+          <div class="page-aside__item-count">2755</div>
+        </a>
+        <a class="page-aside__item link link_black">Написать письмо</a>
+        <a class="page-aside__item link link_black">Деньги 0 ₽</a>
+        <a class="page-aside__item link link_black">Диск</a>
+        <a class="page-aside__item link link_lightblue">Получить Плюс</a>
+      </div>
+      <div class="page-aside__items-card _recommend-inner">
+        <div href="#" class="page-aside__rec-header">
+          <a href="#" class="page-aside__rec-header-link link link_grey">Рекомендуем</a>
+          <div class="page-aside__rec-header-img"></div>
+        </div>
+        <div class="page-aside__item _recommend-item">
+          <div class="page-aside__item-img"></div>
+          <div class="page-aside__item-text">Проклятая</div>
+        </div>
+        <div class="page-aside__item-list _recommend-item">
+          <div class="page-aside__item-list-circle"></div>
+          <div class="page-aside__item-list-text">ужасы, 2009</div>
+        </div>
+      </div>
+    </div>
+    <div class="page-news"></div>
+    <div class="page-media _kinopoisk">
+      <h1 class="page-media__header">КиноПоиск онлайн</h1>
+      <div class="page-media__tabs">
+        <div class="page-media__tab tab_selected">Популярное</div>
+        <div class="page-media__tab">Боевики</div>
+        <div class="page-media__tab">Советское</div>
+        <div class="page-media__tab">Комедии</div>
+        <div class="page-media__tab">Драмы</div>
+        <div class="page-media__tab">Сериалы</div>
+        <div class="page-media__tab">Детям</div>
+      </div>
+      <div class="page-media__carousel">
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text">
+            <div class="page-media__item-title">Скажи правду</div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text">
+            <div class="page-media__item-title">Романовы</div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text">
+            <div class="page-media__item-title">1+1</div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text">
+            <div class="page-media__item-title">Медичи: Повелители Флоренции</div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text">
+            <div class="page-media__item-title">Великая война</div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text">
+            <div class="page-media__item-title">Имератрица Ци</div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text">
+            <div class="page-media__item-title">Хилер</div>
+          </div>
+        </div>
+      </div>
+      <div class="page-media__controls">
+        <div class="page-media__control _left-arrow">
+          <svg class="page-media__control-arrow " xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+            <g fill="none" stroke="#000" stroke-width="2">
+              <path d="M1 9h14M9 2l7 7-7 7" />
+            </g>
+          </svg>
+        </div>
+        <div class="page-media__control  _right-arrow">
+          <svg class="page-media__control-arrow" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+            <g fill="none" stroke="#000" stroke-width="2">
+              <path d="M1 9h14M9 2l7 7-7 7" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="page-media _afisha">
+      <h1 class="page-media__header">Афиша</h1>
+      <div class="page-media__tabs">
+        <div class="page-media__tab tab_selected">Кино</div>
+        <div class="page-media__tab">Концерты</div>
+        <div class="page-media__tab">Театр</div>
+      </div>
+      <div class="page-media__carousel">
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text _text_left">
+            <div class="page-media__item-title">Скажи правду</div>
+            <div class="page-media__item-genre"></div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text _text_left">
+            <div class="page-media__item-title">Романовы</div>
+            <div class="page-media__item-genre"></div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text _text_left">
+            <div class="page-media__item-title">1+1</div>
+            <div class="page-media__item-genre"></div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text _text_left">
+            <div class="page-media__item-title">Медичи: Повелители Флоренции</div>
+            <div class="page-media__item-genre"></div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text _text_left">
+            <div class="page-media__item-title">Великая война</div>
+            <div class="page-media__item-genre"></div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text _text_left">
+            <div class="page-media__item-title">Имератрица Ци</div>
+            <div class="page-media__item-genre"></div>
+          </div>
+        </div>
+        <div class="page-media__item">
+          <div class="page-media__item-image"></div>
+          <div class="page-media__item-text _text_left">
+            <div class="page-media__item-title">Хилер</div>
+            <div class="page-media__item-genre"></div>
+          </div>
+        </div>
+      </div>
+      <div class="page-media__controls">
+        <div class="page-media__control _left-arrow">
+          <svg class="page-media__control-arrow " xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+            <g fill="none" stroke="#000" stroke-width="2">
+              <path d="M1 9h14M9 2l7 7-7 7" />
+            </g>
+          </svg>
+        </div>
+        <div class="page-media__control  _right-arrow">
+          <svg class="page-media__control-arrow" xmlns="http://www.w3.org/2000/svg" width="0" height="0">
+            <g fill="none" stroke="#000" stroke-width="2">
+              <path d="M1 9h14M9 2l7 7-7 7" />
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+    <div class="page-films page-media">
 
     </div>
+    <div class="page-cashback"></div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="page">
+
+
 
     <div class="row-last">
       <div class="media-grid__row">
         <div class="kinopoisk">
-          <div class="media-service__header">
-            <h1 class="media-service__header-title">КиноПоиск онлайн</h1>
+
+        </div>
+      </div>
+      <div class="media-grid__row">
+
+      </div>
+      <div class="media-grid__row">
+        <div class="page-kinopoisk__header page-kinopoisk__stream-header">
+          <h1 class="page-kinopoisk__header-title">Эфир</h1>
+          <a href="#" class="page-kinopoisk__more">
+            <div class="page-kinopoisk__more-text">Все каналы</div>
+          </a>
+        </div>
+        <div class="media-stream__content page-kinopoisk__content">
+          <div class="medias-stream-items">
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
+            <a href="#" class="media-stream__item">
+              <div class="page-kinopoisk__image"></div>
+              <div class="page-kinopoisk__item-title">18:48&nbsp;&nbsp;КВН. Высшая лига -&nbsp;Сезон 30&nbsp;- Серия
+                6&nbsp;- 2016. Вторая одна четвертая финала</div>
+            </a>
           </div>
-          <div class="media-service__content">
-            <div class="media-service__tabs">
-              <div class="media-service__tab media-service__tab_selected">Популярное</div>
-              <div class="media-service__tab">Боевики</div>
-              <div class="media-service__tab">Комедии</div>
-              <div class="media-service__tab">Сериалы</div>
-              <div class="media-service__tab">Детям</div>
-              <div class="media-service__tab">Драмы</div>
-              <div class="media-service__tab">Советское</div>
-            </div>
-            <div class="media-service__panels">
-              <div class="media-service_panel">
+        </div>
+      </div>
+      <div class="media-grid__row">
+        <div class="kinopoisk">
+          <div class="page-kinopoisk__header">
+            <h1 class="page-kinopoisk__header-title">Фильмы</h1>
+          </div>
+          <div class="page-kinopoisk__content">
+            <div class="page-kinopoisk__panels">
+              <div class="page-kinopoisk_panel">
                 <div class="carousel">
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title kinopoisk__film-title">Скажи правду</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Скажи
+                        правду</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title kinopoisk__film-title">Романовы</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Романовы
+                      </div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title kinopoisk__film-title">1+1</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">1+1
+                      </div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title kinopoisk__film-title">Медичи: Повелители Флоренции</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Медичи:
+                        Повелители Флоренции</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title kinopoisk__film-title">Великая война</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Великая
+                        война</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title kinopoisk__film-title">Имератрица Ци</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">
+                        Имератрица
+                        Ци</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title kinopoisk__film-title">Хилер</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Хилер
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -109,66 +590,62 @@
         </div>
       </div>
       <div class="media-grid__row">
-        <div class="afisha">
-          <div class="media-service__header">
-            <h1 class="media-service__header-title">Афиша</h1>
+        <div class="kinopoisk">
+          <div class="page-kinopoisk__header">
+            <h1 class="page-kinopoisk__header-title">Сериалы</h1>
           </div>
-          <div class="media-service__content">
-            <div class="media-service__tabs">
-              <div class="media-service__tab media-service__tab_selected">Кино</div>
-              <div class="media-service__tab">Концерты</div>
-              <div class="media-service__tab">Театр</div>
-            </div>
-            <div class="media-service__panels">
-              <div class="media-service_panel">
+          <div class="page-kinopoisk__content">
+            <div class="page-kinopoisk__panels">
+              <div class="page-kinopoisk_panel">
                 <div class="carousel">
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title afisha__film-title">Капитан Марвел</span>
-                      <span class="media-service__film-genre">фантастика</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Скажи
+                        правду</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title afisha__film-title">Капитан Марвел</span>
-                      <span class="media-service__film-genre">фантастика</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Романовы
+                      </div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title afisha__film-title">Капитан Марвел</span>
-                      <span class="media-service__film-genre">фантастика</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">1+1
+                      </div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title afisha__film-title">Капитан Марвел</span>
-                      <span class="media-service__film-genre">фантастика</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Медичи:
+                        Повелители Флоренции</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title afisha__film-title">Капитан Марвел</span>
-                      <span class="media-service__film-genre">фантастика</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Великая
+                        война</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title afisha__film-title">Капитан Марвел</span>
-                      <span class="media-service__film-genre">фантастика</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">
+                        Имератрица
+                        Ци</div>
                     </div>
                   </div>
-                  <div class="media-service__film">
-                    <span class="media-service__film-inner"></span>
-                    <div class="media-service__film-content">
-                      <span class="media-service__film-title afisha__film-title">Капитан Марвел</span>
-                      <span class="media-service__film-genre">фантастика</span>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Хилер
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -184,15 +661,277 @@
         </div>
       </div>
       <div class="media-grid__row">
-        <div class="media-service__header">
-          <h1 class="media-service__header-title">Эфир</h1>
+        <div class="kinopoisk">
+          <div class="page-kinopoisk__header">
+            <h1 class="page-kinopoisk__header-title">Мультфильмы</h1>
+          </div>
+          <div class="page-kinopoisk__content">
+            <div class="page-kinopoisk__panels">
+              <div class="page-kinopoisk_panel">
+                <div class="carousel">
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Скажи
+                        правду</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Романовы
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">1+1
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Медичи:
+                        Повелители Флоренции</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Великая
+                        война</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">
+                        Имератрица
+                        Ци</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Хилер
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="pacarousel__control carousel__control_side_left">
 
+                </div>
+                <div class="carousel__control carousel__control_side_right">
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="media-grid__row"></div>
+      <div class="media-grid__row">
+        <div class="kinopoisk">
+          <div class="page-kinopoisk__header">
+            <h1 class="page-kinopoisk__header-title">Мультсериалы</h1>
+          </div>
+          <div class="page-kinopoisk__content">
+            <div class="page-kinopoisk__panels">
+              <div class="page-kinopoisk_panel">
+                <div class="carousel">
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Скажи
+                        правду</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Романовы
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">1+1
+                      </div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Медичи:
+                        Повелители Флоренции</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Великая
+                        война</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">
+                        Имератрица
+                        Ци</div>
+                    </div>
+                  </div>
+                  <div class="page-kinopoisk__item-film">
+                    <div class="page-kinopoisk__item-film-image"></div>
+                    <div class="page-kinopoisk__item-film-content">
+                      <div class="page-kinopoisk__item-film-title film-title_center kinopoisk__item-film-title">Хилер
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel__control carousel__control_side_left">
 
+                </div>
+                <div class="carousel__control carousel__control_side_right">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="media-grid__row">
+        <div class="page-kinopoisk__header">
+          <h1 class="page-kinopoisk__header-title">Дзен</h1>
+          <div class="page-kinopoisk__desc">Публикации на основе ваших интересов</div>
+        </div>
+        <div class="page-kinopoisk__content">
+          <div class="zen__container">
+            <div class="feed__row">
+              <div class="feed__item _size_small">
+                <div class="feed__item-image">
+                  <div class="feed__item-image__content">
+                    <div class="item-image__content-header">Собянин ответил хитрецам, нашедшим способ не платить за
+                      парковку</div>
+                    <div class="item-image__content-text">Недавно в Сети появилась фотография, на которой, как уверял
+                      автор снимка, показан новый способ...</div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed__item _size_small">
+                <div class="feed__item-image">
+                  <div class="feed__item-image__content">
+                    <div class="item-image__content-header">Собянин ответил хитрецам, нашедшим способ не платить за
+                      парковку</div>
+                    <div class="item-image__content-text">Недавно в Сети появилась фотография, на которой, как уверял
+                      автор снимка, показан новый способ...</div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed__item _size_small">
+                <div class="feed__item-image">
+                  <div class="feed__item-image__content">
+                    <div class="item-image__content-header">Собянин ответил хитрецам, нашедшим способ не платить за
+                      парковку</div>
+                    <div class="item-image__content-text">Недавно в Сети появилась фотография, на которой, как уверял
+                      автор снимка, показан новый способ...</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feed__row">
+              <div class="feed__item _size_big">
+                <div class="feed__item-image">
+                  <div class="feed__item-image__content image_big__content">
+                    <div class="item-image__content-header">Японские телефоны. Смерть или перевоплощение?</div>
+                    <div class="item-image__content-text">Привет! Поведаю вам историю, полную грусти и печали. Так
+                      что
+                      запасайтесь носовыми платками. Сначала я думал написать заурядный обзор очередного японского
+                      телефона. Однако уже на старте мой замысел кардинально изменился, и идея обзора переросла в
+                      нечто
+                      большее. Сегодня наступил тот день...</div>
+                  </div>
+                </div>
+              </div>
+              <div class="feed__item _size_small">
+                <div class="feed__item-image">
+                  <div class="feed__item-image__content">
+                    <div class="item-image__content-header">Собянин ответил хитрецам, нашедшим способ не платить за
+                      парковку</div>
+                    <div class="item-image__content-text">Недавно в Сети появилась фотография, на которой, как уверял
+                      автор снимка, показан новый способ...</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="feed__row">
+              <div class="feed__item _size_free">
+                <div class="media-grid__row">
+                  <div class="page-kinopoisk__header">
+                    <h1 class="page-kinopoisk__header-title">Коллекции</h1>
+                  </div>
+                  <div class="page-kinopoisk__content">
+                    <div class="page-kinopoisk__tabs">
+                      <div class="page-kinopoisk__tab page-kinopoisk__tab_selected">Темы</div>
+                      <div class="page-kinopoisk__tab">Моя лента</div>
+                    </div>
+                    <div class="page-kinopoisk__panels">
+                      <div class="page-kinopoisk_panel">
+                        <div class="carousel">
+                          <div class="collections__item">
+                            <div class="collection__item-shadows collection__item-shadows_2"
+                              style="background-color: #bdc2a8"></div>
+                            <div class="collection__item-shadows"></div>
+                            <div class="collections__item-image"></div>
+                            <div class="collections__item-text">Сторожевые породы собак</div>
+                          </div>
+                          <div class="collections__item">
+                            <div class="collection__item-shadows collection__item-shadows_2"
+                              style="background-color: #bdc2a8"></div>
+                            <div class="collection__item-shadows"></div>
+                            <div class="collections__item-image"></div>
+                            <div class="collections__item-text">Сторожевые породы собак</div>
+                          </div>
+                          <div class="collections__item">
+                            <div class="collection__item-shadows collection__item-shadows_2"
+                              style="background-color: #bdc2a8"></div>
+                            <div class="collection__item-shadows"></div>
+                            <div class="collections__item-image"></div>
+                            <div class="collections__item-text">Сторожевые породы собак</div>
+                          </div>
+                          <div class="collections__item">
+                            <div class="collection__item-shadows collection__item-shadows_2"
+                              style="background-color: #bdc2a8"></div>
+                            <div class="collection__item-shadows"></div>
+                            <div class="collections__item-image"></div>
+                            <div class="collections__item-text">Сторожевые породы собак</div>
+                          </div>
+                          <div class="collections__item">
+                            <div class="collection__item-shadows collection__item-shadows_2"
+                              style="background-color: #bdc2a8"></div>
+                            <div class="collection__item-shadows"></div>
+                            <div class="collections__item-image"></div>
+                            <div class="collections__item-text">Сторожевые породы собак</div>
+                          </div>
+                        </div>
+                        <div class="carousel__control carousel__control_side_left">
+
+                        </div>
+                        <div class="carousel__control carousel__control_side_right">
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 </body>
 
 </html>

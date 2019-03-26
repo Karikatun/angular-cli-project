@@ -1,0 +1,96 @@
+.page-aside {
+  position: absolute;
+  right: 20px;
+  top: 6px;
+}
+._post-inner {
+  width: 180px;
+  height: 177px;
+}
+.page-aside__items-card {
+  padding: 10px 12px;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1), 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.page-aside__post-header {
+  margin-bottom: 3px;
+  font-weight: 700;
+  display: flex;
+}
+._username {
+  margin-right: 11px;
+  margin-top: 2px;
+  margin-left: 1px;
+}
+._profile-img {
+  width: 34px;
+  height: 34px;
+}
+._username-first-letter {
+  color: red;
+}
+.page-aside__item {
+  margin-left: 2px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.page-aside__item:last-child {
+  margin-bottom: 0;
+}
+.page-aside__item-post {
+  margin-right: 8px;
+}
+.page-aside__item-count {
+  font-weight: 600;
+}
+.page-aside__item-img {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #999;
+  margin-right: 5px;
+}
+._recommend-inner {
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-right: 8px;
+  height: 93px;
+}
+.page-aside__rec-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 6px;
+}
+.page-aside__rec-header-img {
+  margin-left: 1px;
+  width: 24px;
+  height: 24px;
+  background: url(//yastatic.net/www/_/X/e/l8WN-ci5TMVFhr3s3hf1AB2oE.svg) no-repeat;
+}
+.page-aside__rec-header-link {
+  margin-top: 4px;
+  margin-right: 9px;
+  margin-left: 2px;
+}
+._recommend-item {
+  margin-bottom: 0;
+}
+.page-aside__item-list {
+  margin-left: 3px;
+  margin-top: 9px;
+  font-size: 12px;
+  display: flex;
+}
+.page-aside__item-list-circle {
+  margin-top: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  background-color: #01de51;
+  width: 5px;
+  height: 5px;
+}

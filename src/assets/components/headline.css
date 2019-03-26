@@ -1,0 +1,45 @@
+.page-header {
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 18px 0 30px;
+  margin: 4px 200px 6px 0;
+}
+.page-header__item {
+  display: flex;
+  align-items: center;
+}
+.page-header__button {
+  color: #999999;
+}
+.page-header__icon-geo {
+  width: 19px;
+  height: 19px;
+}
+._left {
+  margin-left: -6px;
+  margin-top: 3px;
+  width: 101px;
+}
+._geo {
+  width: 100px;
+  display: flex;
+}
+._right {
+  margin-right: 9px;
+}
+._favorites {
+  margin-right: 3px;
+}
+._notifier {
+  margin-right: 15px;
+}
+._options {
+  width: 63px;
+  color: black;
+}
+.page-header__icon {
+  width: 36px;
+  height: 36px;
+  fill: #999999;
+}

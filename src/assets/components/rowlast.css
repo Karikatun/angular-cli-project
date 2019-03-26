@@ -1,16 +1,27 @@
 .row-last {
-  margin: auto;
-  width: 100vw;
-}
-.media-grid__row {
   margin: 0 auto;
   width: 902px;
-  height: 349px;
+}
+.media-grid__row {
+  margin-top: 22px;
+  width: 902px;
   padding-bottom: 35px;
 }
+.media-service__header {
+  font-weight: 400;
+}
 .media-service__header-title {
-  font-weight: 500;
+  height: 23px;
   text-align: left;
+  font-size: 23px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.media-service__desc {
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 4px 0 0;
+  opacity: .4;
 }
 .media-service__tabs {
   display: flex;
@@ -21,7 +32,7 @@
   display: inline-block;
   background-color: #E6E6E6;
   padding: 10px 16px;
-  border-radius: 2px;
+  border-radius: 3px;
   margin: 8px 8px 0 0;
 }
 .media-service__tab_selected {
@@ -42,13 +53,10 @@
   padding-top: 35px;
   overflow-x: hidden;
   overflow-y: hidden;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: none;
   scrollbar-width: none;
   margin-bottom: -30px;
   padding-bottom: 30px;
-  display: inline-block;
-  padding: 0 36px 0 0;
+  display: flex;
   position: relative;
   white-space: nowrap;
 }
@@ -57,18 +65,15 @@
 }
 .media-service__film {
   position: relative;
-  display: inline-block;
   width: 120px;
   margin-bottom: 2px;
   margin-left: 16px;
-  padding-right: 0;
-  padding-left: 0;
-  cursor: pointer;
+  padding: 0;
   vertical-align: top;
   white-space: normal;
-  outline: none;
-  color: inherit;
   box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
 }
 .media-service__film-inner {
   height: 180px;
@@ -76,9 +81,6 @@
   background: #dfdcd7 no-repeat 50% url(//yastatic.net/www/_/y/4/Jy-b3BgSC_rSXwEgmmoYVtrdE.svg);
   background-size: 54px 40px;
   display: block;
-  -webkit-transition: -webkit-transform 0.15s ease-out;
-  transition: transform 0.15s ease-out;
-  transition: transform 0.15s ease-out, -webkit-transform 0.15s ease-out;
 }
 .media-service__film-content {
   height: 32px;
@@ -90,16 +92,6 @@
   display: block;
   line-height: 1.24em;
   overflow: hidden;
-  text-overflow: ellipsis;
-  -webkit-line-clamp: 2;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  word-wrap: break-word;
-  word-break: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
   height: 16px;
   font-size: 100%;
   position: relative;
@@ -107,6 +99,14 @@
 }
 .kinopoisk__film-title {
   height: 32px;
+  line-height: 1.24em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 .afisha__film-title {
   text-align: left;
@@ -118,4 +118,199 @@
   overflow: hidden;
   white-space: nowrap;
   opacity: .4;
+}
+.media-service__more {
+  font-size: 100%;
+  line-height: 1.27;
+  display: block;
+  height: auto;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.media-service__more-text {
+  line-height: 1.16;
+  display: inline-block;
+  margin-right: 7px;
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+.media-service__stream-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.media-stream__content {
+  height: 274px;
+  margin-top: 15px;
+}
+.media-stream__items {
+  width: 902px;
+  height: 274px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.media-stream__item {
+  width: 16.66%;
+  height: 121px;
+  position: relative;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  margin-right: 0;
+  padding-right: 16px;
+  cursor: pointer;
+  vertical-align: top;
+  color: inherit;
+  outline: 0;
+  text-decoration: none;
+}
+.media-service__image {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  top: 0;
+  background-color: #e6e6e6;
+  background-size: cover;
+  border-radius: 6px;
+}
+.media-service__item-title {
+  height: 32px;
+  line-height: 1.24em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin-top: 8px;
+  text-align: center;
+}
+.zen__container {
+  padding-top: 10px;
+  width: 918px;
+}
+.feed__row {
+  width: 926px;
+  margin-bottom: 8px;
+  display: flex;
+}
+.feed__item {
+  height: 316px;
+  padding: 0px 4px;
+  box-sizing: border-box;
+}
+._size_small {
+  width: 33.33%;
+}
+._size_big {
+  width: 66.66%;
+}
+._size_free {
+  width: 100%;
+}
+.feed__item-image {
+  border: 1px solid #e6e6e6;
+  border-radius: 4px;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+.feed__item-image__content {
+  padding-top: 132px;
+  padding-left: 24px;
+  position: relative;
+  z-index: 2;
+  padding-right: 23px;
+  height: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-bottom: 44px;
+  border-radius: 4px;
+}
+.image_big__content {
+  width: 46%;
+  padding-right: 0;
+  padding-top: 28px;
+}
+.item-image__content-header {
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  font-family: bold-ysans, sans-serif;
+  text-align: left;
+}
+.item-image__content-text {
+  margin-top: 12px;
+  margin-bottom: 4px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  font-family: regular-ysans, sans-serif;
+  color: #E6E6E6;
+}
+.collections__item-shadows {
+  position: absolute;
+  top: -5px;
+  right: 8px;
+  left: 8px;
+  width: 156px;
+  height: 5px;
+  border-radius: 4px 4px 0 0;
+  background-color: #91996E;
+  display: block;
+}
+.collections__item-shadows_2 {
+  width: 136px;
+  display: block;
+  top: -10px;
+  right: 18px;
+  left: 18px;
+}
+.collections__item {
+  position: relative;
+  width: 172px;
+  height: 212px;
+  margin-top: 10px;
+  margin-right: 15px;
+  margin-bottom: 0;
+  padding: 0;
+  vertical-align: top;
+  white-space: normal;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
+.collections__item-image {
+  display: block;
+  top: 0;
+  bottom: 0;
+  border-radius: 6px;
+  position: relative;
+  width: 172px;
+  height: 172px;
+  background-color: #91996e;
+}
+.collections__item-text {
+  height: 32px;
+  line-height: 1.24em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+  word-break: break-word;
+  margin-top: 8px;
+  font-size: 100%;
+  position: relative;
+  text-align: center;
 }

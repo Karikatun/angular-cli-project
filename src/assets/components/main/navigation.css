@@ -1,0 +1,56 @@
+.page-nav {
+  margin-left: 176px;
+  margin-top: 31px;
+}
+.page-nav__tabs {
+  margin-bottom: 11px;
+}
+.page-nav__tab {
+  font-size: 15px;
+  margin-right: 17px;
+}
+.page-nav__tab:nth-child(2) {
+  margin-right: 20px;
+}
+.page-nav__tab:nth-child(3) {
+  margin-right: 18px;
+}
+.page-nav__tab:nth-child(4) {
+  margin-right: 19px;
+}
+.page-nav__tab:nth-child(6) {
+  margin-right: 20px;
+}
+.page-nav__logo {
+  position: absolute;
+  left: 31px;
+  top: 267px;
+  width: 140px;
+  height: 100px;
+  background: url(//yastatic.net/www/_/_/i/tLI86LIriNsIJwhEqZS2o1Ckk.webp) no-repeat;
+}
+.page-nav__search-form {
+  display: flex;
+}
+.page-nav__search-input {
+  width: 512px;
+  border: 2px solid #FFDB4D;
+  outline: none;
+}
+.page-nav__search-button {
+  width: 86px;
+  font-size: 16px;
+  height: 36px;
+  text-align: center;
+  background-color: #FFDB4D;
+  padding-left: 0;
+  border: 0;
+  clip-path: polygon(0% 0%, /* верхняя левая */ 0% 0%, /* верхняя левая */ 89% 0%, /* верхняя правая */ 100% 48%, /* верхняя правая */ 0% 537%, /* нижняя правая */ 0% 0%, /* нижняя правая */ 0% 0%, /* нижняя левая */ 10% 0% /* нижняя левая */);
+}
+.page-nav__search-bottom {
+  display: flex;
+  margin-top: 8px;
+}
+.link_grey {
+  color: #999999;
+}
